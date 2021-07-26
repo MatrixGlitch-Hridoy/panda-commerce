@@ -1,0 +1,64 @@
+.search-container {
+  background: #fff;
+  height: 40px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-input {
+  width: 400px;
+  height: 40px;
+}
+
+.search-container .search-input {
+  border: none;
+  outline: none;
+}
+.search-btn {
+  color: grey;
+}
+.panda-bg-carousel {
+  background: #feeae9;
+  border-radius: 20px;
+}
+.panda-slider {
+  margin: 64px 0;
+}
+.panda-bg-btn {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.panda-price {
+  color: #ff136f;
+}
+.panda-category img {
+  width: 100px;
+}
+.panda-bg-watch {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+
+.panda-bg-bag {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.panda-bg-shoes {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+.fluid-background {
+  background: #f4f4f4;
+}
+.panda-subscribe {
+  background: #fff2f1;
+  height: 455px;
+}
+
+@media only screen and (max-width: 576px) {
+  .search-input {
+    width: 100%;
+  }
+  .hat-search-from {
+    margin-top: 10px;
+  }
+}
